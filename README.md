@@ -4,10 +4,16 @@ Dizzy Walk – A 2D maze adventure simulation in x86 Assembly (MASM32). Features
 
 ## 🖼️ Game Screenshots
 
-*(Upload your screenshots named `screenshot1.png` and `screenshot2.png` to the repository to display them here!)*
+<img width="1920" height="1080" alt="Screenshot (1169)" src="https://github.com/user-attachments/assets/34d49d10-238b-492d-aaba-371faec9c297" />
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
+<img width="1920" height="1080" alt="Screenshot (1170)" src="https://github.com/user-attachments/assets/b97553f9-94a8-457a-b087-658539376f34" />
+
+<img width="1920" height="1080" alt="Screenshot (1171)" src="https://github.com/user-attachments/assets/5d37abeb-88ef-4f66-87d6-587a9d484544" />
+
+<img width="1920" height="1080" alt="Screenshot (1172)" src="https://github.com/user-attachments/assets/bd647f35-c37e-4033-8175-e1a51f0a503f" />
+
+
+
 
 ---
 
