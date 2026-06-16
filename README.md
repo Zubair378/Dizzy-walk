@@ -2,6 +2,34 @@
 
 Dizzy Walk – A 2D maze adventure simulation in x86 Assembly (MASM32). Features automated/keyboard-controlled pathfinding, obstacle collision, coin collection, and comprehensive file-based audit logging.
 
+## 🖼️ Game Screenshots
+
+*(Upload your screenshots named `screenshot1.png` and `screenshot2.png` to the repository to display them here!)*
+
+![Screenshot 1](screenshot1.png)
+![Screenshot 2](screenshot2.png)
+
+## 🚀 Setup & Installation (Irvine32)
+
+This project requires the **Irvine32 Library** and **MASM** (Microsoft Macro Assembler) via Visual Studio.
+
+1. **Install Visual Studio**: Make sure you have C++ Desktop Development (containing MASM toolset) installed.
+2. **Download Irvine32**: Download the Irvine32 library from standard resources (e.g., `Irvine_7th_Edition`).
+3. **Configure Irvine32 Path**: Extract the library (commonly into `C:\Irvine`).
+4. **Include & Link Paths**:
+   * Open the `.slnx` / `.vcxproj` project file in Visual Studio.
+   * Go to **Project Properties -> Linker -> General -> Additional Library Directories** and add `C:\Irvine`.
+   * Go to **Project Properties -> Microsoft Macro Assembler -> General -> Include Paths** and add `C:\Irvine`.
+5. **Additional Dependencies**: The game includes `GraphWin.inc` and links native Windows libraries (`user32.lib`, `kernel32.lib`, `gdi32.lib`, `winmm.lib`), which are included by default in the Windows SDK.
+
+### Compilation / Build
+
+1. Open `Project.slnx`.
+2. Build the project using **Ctrl + Shift + B** in Visual Studio.
+3. Run the compiled `.exe`. The game will automatically log your session status into `adventure_log.txt` generated next to the executable.
+
+---
+
 ### 🎯 Core Gameplay
 
 * **20x30 Maze Grid** — A rich obstacle course with walls, buildings, lakes, pits, coins, treasures, and keys
